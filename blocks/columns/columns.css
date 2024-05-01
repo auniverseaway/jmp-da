@@ -10,6 +10,7 @@
 
 .columns > div > div {
   order: 1;
+  background-color: #0000FF;
 }
 
 .columns.shaded {
