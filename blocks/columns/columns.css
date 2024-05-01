@@ -24,9 +24,9 @@
   display: block;
 }
 
-@media (width >= 900px) {
+@media (width >= 100px) {
   .columns > div {
-    align-items: left;
+    align-items: center;
     flex-direction: unset;
     gap: 32px;
   }
