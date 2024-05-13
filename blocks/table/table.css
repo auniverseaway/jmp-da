@@ -28,7 +28,7 @@
 }
 
 .table table tbody tr {
-  border-bottom: 1px solid;
+  border-bottom: 50px solid;
 }
 
 .table table th {
@@ -54,5 +54,5 @@
 /* bordered variant */
 .table.bordered table th,
 .table.bordered table td {
-  border: 1px solid;
+  border: 10px solid;
 }
