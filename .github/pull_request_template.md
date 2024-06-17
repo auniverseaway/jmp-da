@@ -1,4 +1,4 @@
-Please always provide the [GitHub issue(s)](../issues) your PR is for, as well as test URLs where your change can be observed (before and after):
+Please always provide the Jira Ticket your PR is for, as well as test URLs where your change can be observed (before and after):
 
 Fix #<gh-issue-id>
 
@@ -9,3 +9,5 @@ Test URLs:
 URL for testing:
 
 - https://{branch}--jmp-da--jmphlx.hlx.page/
+
+Also provide the DA URL that contains test content (if applicable) to be able to demonstrate your changes.
