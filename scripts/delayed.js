@@ -3,7 +3,7 @@ import { sampleRUM } from './aem.js';
 
 // google tag manager
 function loadGTM() {
-  //ContainerID GTM-NGNNXZW
+  // ContainerID GTM-NGNNXZW
   const scriptTag = document.createElement('script');
   scriptTag.innerHTML = `
   // googleTagManager
