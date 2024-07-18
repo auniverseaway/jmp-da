@@ -20,11 +20,6 @@ function loadGTM() {
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
       f.parentNode.insertBefore(j, f);
   })(window, document, 'script', 'dataLayer', 'GTM-NGNNXZW');
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('set', {
-      'cookie_flags': 'SameSite=None;Secure'
-  });
   `;
   document.head.prepend(scriptTag);
 }
@@ -32,7 +27,6 @@ function loadGTM() {
 // Core Web Vitals RUM collection
 sampleRUM('cwv');
 
-console.log('here in delayed');
 if (!window.location.hostname.includes('localhost') && !document.location.hostname.includes('.hlx.page')) {
   loadGTM();
 }
